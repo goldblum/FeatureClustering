@@ -10,7 +10,6 @@ from torch.utils.data import DataLoader, Dataset
 from torch.autograd import Variable
 import sys
 sys.path.append('..')
-from models.classification_heads import ClassificationHead
 from models.R2D2_embedding import R2D2Embedding
 from models.protonet_embedding import ProtoNetEmbedding
 from models.ResNet12_embedding import resnet12
@@ -212,7 +211,7 @@ if __name__ == '__main__':
     parser.add_argument('--network', type=str, default='ResNet',
                             help='choose which embedding network to use. ProtoNet, R2D2, ResNet, MAML')
     parser.add_argument('--dataset', type=str, default='miniImageNet',
-                            help='choose which classification head to use. miniImageNet, tieredImageNet, CIFAR_FS, FC100')
+                            help='choose which dataset to use. Currently, only miniImageNet and CIFAR_FS are supported)
     parser.add_argument('--lr', type=float, default=0.01,
                             help='initial learning rate')
     parser.add_argument('--lr_schedule', nargs='+', default=[100, 150, 200, 250], type=int, help='when to decrease lr')

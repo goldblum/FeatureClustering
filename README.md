@@ -5,7 +5,7 @@ This repository contains PyTorch code for the feature clustering and hyperplane 
 
 The feature clustering and hyperplane variation regularizers enforce clustering in feature space in order to encourage better few-shot performance in the transfer learning setting for classically trained (non-meta-learned) models.  We show in our paper that these regularizers have a similar effect to meta-learning on feature extractors.  This work is not intended to achieve state-of-the-art performance but to instead develop a better understanding of how meta-learning works.
 
-This repository supports the mini-ImageNet and CIFAR-FS datasets, the R2-D2, MetaOptNet, and ProtoNet meta-learning algorithms, and a variety of backbone architectures.  Please download datasets independently in order to run the code.
+This repository supports the mini-ImageNet and CIFAR-FS datasets as well as a variety of backbone architectures.  Please download datasets independently in order to run the code.
 
 ## Prerequisites
 * Python3
