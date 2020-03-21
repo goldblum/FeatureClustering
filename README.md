@@ -15,5 +15,5 @@ This repository supports the mini-ImageNet and CIFAR-FS datasets, the R2-D2, Met
 ## Run
 Here is an example of how to run our program:
 ```
-$ python train_feature_extractor_regularized.py
+$ python train_feature_extractor.py
 ```
