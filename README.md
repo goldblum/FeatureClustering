@@ -1,7 +1,7 @@
 # FeatureClustering
 
-This repository contains PyTorch code for the feature clustering and hyperplane variation regularizers from ["Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
-"](https://arxiv.org/abs/2002.06753) by Micah Goldblum, Steven Reich, Liam Fowl, Renkun Ni, Valeriia Cherepanova, and Tom Goldstein.
+This repository contains PyTorch code for the feature clustering and hyperplane variation regularizers from the ICML 2020 paper, ["Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
+"](https://arxiv.org/abs/2002.06753), by Micah Goldblum, Steven Reich, Liam Fowl, Renkun Ni, Valeriia Cherepanova, and Tom Goldstein.
 
 The feature clustering and hyperplane variation regularizers enforce clustering in feature space in order to encourage better few-shot performance in the transfer learning setting for classically trained (non-meta-learned) models.  We show in our paper that these regularizers have a similar effect to meta-learning on feature extractors.  This work is not intended to achieve state-of-the-art performance but to instead develop a better understanding of how meta-learning works.
 
